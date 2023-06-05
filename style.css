@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&family=Itim&family=Space+Grotesk:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: none;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    padding: 30px 0;
+  
+    
+}
+.logo {
+    float: left;
+  
+}
+.menu {
+    display: none;
+}
+nav {
+    float: right;
+    
+}
+nav ul {
+    list-style-type: none;
+}
+.close {
+    display: none;
+}
+nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    transition: .2s ease-in-out;
+}
+nav ul li a:hover {
+    color: hsl(5, 85%, 63%);
+}
+#showcase {
+    margin-top: 50px;
+}
+.showcase-sec-1 {
+    float: left;
+    width: 63%;
+}
+
+.desktop {
+    width: 100%;
+    display: block;
+}
+.aside {
+    float: right;
+    width: 35%;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 25px;
+    margin-top: 0;
+    
+}
+.aside p {
+    line-height: 1.5em;
+}
+.aside h1 {
+    color: hsl(35, 77%, 62%);
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.aside-sec-1 {
+    color: hsl(237, 11%, 63%);
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    padding-bottom: 25px;
+}
+.aside-sec-1 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.aside-sec-2 {
+    color: hsl(237, 11%, 63%);
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.aside-sec-2 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.aside-sec-3 {
+    color: hsl(237, 11%, 63%);
+    padding-top: 25px;
+}
+.aside-sec-3 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.aside-sec-1 h3:hover, .aside-sec-2 h3:hover, .aside-sec-3 h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+.text {
+    margin-top: 20px;
+}
+.text .text-1 {
+    float: left;
+    color: hsl(240, 100%, 5%);
+    font-size: 1.8em;
+    width: 41%;
+}
+.text .text-2 {
+    float: right;
+    color: hsl(236, 13%, 42%);
+}
+.text .text-2 p {
+    line-height: 1.5em;
+}
+.text .text-2 button {
+    margin-top: 25px;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 500;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.text .text-2 button:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+.clear-fix {
+    clear: both;
+}
+#boxes {
+    margin-top: 50px;
+    padding-bottom: 40px;
+   
+    height: 200px;
+}
+#boxes .box-1 {
+    float: left;
+    /* width: 27%; */
+    
+}
+#boxes .box-2 {
+    float: left;
+    /* width: 27%; */
+   padding-left: 15px;
+}
+#boxes .box-3 {
+    float: left;
+    /* width: 27%; */
+   padding-left: 15px;
+}
+.text-box {
+    float: right;
+    margin-left: -75px;
+    margin-top: 30px;
+}
+.box-img {
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+}
+.text-box h4 {
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 15px;
+}
+.text-box p {
+    font-size: 15px;
+    line-height: 1.5em;
+    color: hsl(236, 13%, 42%);
+}
+.mobile {
+    display: none;
+}
+@media screen and (max-width: 1330px)  {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+    #boxes .box-1 {
+        float: left;
+        /* width: 27%; */
+        
+    }
+    #boxes .box-2 {
+        float: left;
+        /* width: 27%; */
+       padding-left: 5px;
+    }
+    #boxes .box-3 {
+        float: left;
+        /* width: 27%; */
+       padding-left: 5px;
+    }
+    .text-box {
+        float: right;
+        margin-left: -80px;
+        margin-top: 0px;
+    }
+    .box-img {
+        width: 35%;
+        float: left;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 992px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      
+        font-family: 'Inter', sans-serif;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        
+    }
+    .container{
+            width: 90%;
+            margin: auto;
+    }
+    nav {
+        float: right;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: left;
+        width: 50%;
+        height: 100%;
+        display: none;
+        padding: 20px;
+        
+    }
+    .menu {
+        display: block;
+        float: right;
+        margin-right: 5%;
+        margin-top: 12px;
+        cursor: pointer;
+        
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: hsl(240, 100%, 5%);
+        transition: .2s ease-in-out;
+    }
+    .close {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        float: right;
+       
+    }
+    nav ul {
+        margin-top: 30px;
+        list-style-type: none;
+    }
+    nav ul li {
+        display: block;
+        padding: 20px 0;
+    }
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+    .showcase-sec-1 {
+        float: none;
+        width: 100%;
+    }
+    .aside {
+        float: none;
+        width: 100%;
+        background-color: hsl(240, 100%, 5%);
+        color: white;
+        padding: 25px;
+        margin-top: 30px;
+    }
+    .text {
+        margin-top: 20px;
+    }
+    .text .text-1 {
+        float: none;
+        color: hsl(240, 100%, 5%);
+        font-size: 1.8em;
+        width: 100%;
+    }
+    .text .text-2 {
+        float: none;
+        color: hsl(236, 13%, 42%);
+    }
+    #boxes .box-1 {
+    float: none;
+    width: 100%;
+    
+}
+#boxes .box-2 {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+}
+#boxes .box-3 {
+    float: none;
+    width: 100%;
+   padding-left: 0;
+}
+.text-box {
+    float: right;
+    margin-left: 0;
+    margin-top: 0;
+    width: 60%;
+}
+.box-img {
+    width: 35%;
+    float: none;
+      margin-right: 0;
+}
+    
+}
+
+
+
+
+
+
